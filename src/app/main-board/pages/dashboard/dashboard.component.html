@@ -1,0 +1,6 @@
+<div class="list-wrapper">
+  <div class="list-item" *ngFor="let item of calloutList" (click)="alertCallouts(item)">
+    <div class="name">{{item.name}}</div>
+    <div class="description">{{item.description}}</div>
+  </div>
+</div>
