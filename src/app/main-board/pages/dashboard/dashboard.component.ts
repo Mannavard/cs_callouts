@@ -3,7 +3,7 @@ import { Component } from '@angular/core';
 @Component({
   selector: 'dashboard',
   templateUrl: './dashboard.component.html',
-  styleUrls: ['./dashboard.css']
+  styleUrls: ['./dashboard.less']
 })
 
 export class DashboardComponent {
@@ -83,8 +83,5 @@ export class DashboardComponent {
 
   alertCallouts(item: {name: string, description: string}) {
     alert(`Callout: ${item.name}`);
-    alert(`Description: ${item.description}`);
   }
 }
-
-
