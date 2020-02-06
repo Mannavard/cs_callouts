@@ -3,7 +3,7 @@ import { NgModule } from '@angular/core';
 
 import { AppComponent } from 'src/app/app-root/app.component';
 
-import { MainBoardModule } from 'src/app/main-board/main-board.module';
+import { MainBoardModule } from './main-board';
 
 @NgModule({
   declarations: [

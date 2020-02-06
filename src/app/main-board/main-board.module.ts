@@ -1,6 +1,7 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-import { DashboardComponent } from 'src/app/main-board/pages/dashboard/dashboard.component';
+
+import { DashboardComponent } from './pages';
 
 @NgModule({
   declarations: [
