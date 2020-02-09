@@ -18,7 +18,7 @@ export class DashboardComponent {
       },
       {
         name: 'B Site',
-        description: 'B Site is where the bomb can be planted on the B side of the map.',
+        description: 'B Site is where the bomb can be planted on the B side of the map-svg.',
       },
       {
         name: 'T Spawn',
@@ -26,7 +26,7 @@ export class DashboardComponent {
       },
       {
         name: 'Mid',
-        description: 'The open, Middle area of the map, that provides access to the A side of the map from T Spawn.',
+        description: 'The open, Middle area of the map-svg, that provides access to the A side of the map-svg from T Spawn.',
       },
       {
         name: 'Second Mid',
