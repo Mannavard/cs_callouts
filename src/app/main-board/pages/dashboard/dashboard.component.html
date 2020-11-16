@@ -1,8 +1,9 @@
-<div class="list-wrapper">
-  <div class="list-item" *ngFor="let item of calloutList" (click)="alertCallouts(item)">
-    <div class="name">{{item.name}}</div>
-    <div class="description">{{item.description}}</div>
+<div class="dashboard-wrapper">
+  <div class="map-wrapper">
+    <map-svg></map-svg>
+  </div>
+
+  <div class="list-wrapper">
+    <callout-list></callout-list>
   </div>
 </div>
-
-<map-svg></map-svg>

@@ -1,0 +1,4 @@
+<div class="list-item" *ngFor="let item of calloutList" (click)="alertCallouts(item)" (mouseover)="onMouseOver(item)">
+  <div class="name">{{item.name}}</div>
+  <div class="description">{{item.description}}</div>
+</div>
