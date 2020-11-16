@@ -2,10 +2,11 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
 import { DashboardComponent } from './pages';
-import { MapSvgComponent } from './components/';
+import { CalloutListComponent, MapSvgComponent } from './components/';
 
 @NgModule({
   declarations: [
+    CalloutListComponent,
     DashboardComponent,
     MapSvgComponent,
   ],
@@ -14,6 +15,7 @@ import { MapSvgComponent } from './components/';
   ],
   providers: [],
   exports: [
+    CalloutListComponent,
     DashboardComponent,
     MapSvgComponent,
   ]
